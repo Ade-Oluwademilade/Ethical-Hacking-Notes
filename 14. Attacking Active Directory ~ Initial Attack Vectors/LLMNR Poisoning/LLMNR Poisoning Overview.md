@@ -8,8 +8,7 @@ LLMNR works by **sending out multicast queries over local networks asking if an
 
 ### Steps to Re-Produce
 
-1. We run the `Responder` script to listen to LLMNR queries made by other devices on that network and **performs man-in-the-middle attacks on them** (This could be early in the morning why people are turning on their PC).
-Command: `sudo responder -I <network-interface> -dWP`
+1. We run the `Responder` script to listen to LLMNR queries made by other devices on that network and **performs man-in-the-middle attacks on them** (This could be early in the morning why people are turning on their PC).`
 
 ![](https://i.imgur.com/uYKJtur.png)
 
